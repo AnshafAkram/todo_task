@@ -22,7 +22,7 @@ public class TodoController {
     public Todo createnewtodo(@RequestBody Todo todo){
         return todoService.createnewtodo(todo);
     }
-    @PostMapping("/{id}")
+    @PutMapping("/{id}")
     public Todo update(@PathVariable Long id,@RequestBody Todo todo){
         return todoService.update(id,todo);
     }
