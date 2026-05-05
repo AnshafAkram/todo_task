@@ -26,10 +26,10 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-300 to-green-300  flex flex-col items-center py-10">
+    <div className="min-h-screen bg-gradient-to-r from-purple-950 to-gray-950  flex flex-col items-center py-10">
       
 
-      <div className="w-full max-w-xl rounded-xl space-y-4 bg-gray-200/50 p-10 ">
+      <div className="w-full max-w-xl rounded-xl space-y-4 bg-gray-200/25 p-10 ">
   
         
         <TodoForm onAdd={fetchTodos} />

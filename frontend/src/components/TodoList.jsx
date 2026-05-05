@@ -16,7 +16,7 @@ export default function TodoList({ todos, refresh }) {
     <div className="max-w-xl mx-auto space-y-4">
 
       
-      <div className="flex justify-center gap-3 mb-4 ">
+      <div className="flex git add . gap-3 mb-4 ">
 
         <button
           onClick={() => setFilter("all")}

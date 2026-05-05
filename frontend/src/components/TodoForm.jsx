@@ -26,10 +26,10 @@ export default function TodoForm({ onAdd }) {
   };
 
   return (
-    <div className="max-w-xl mx-auto bg-white p-10 rounded-xl shadow mb-6 mt-5">
+    <div className="max-w-xl mx-auto bg-gray-50 p-10 rounded-xl shadow mb-6 mt-5">
       
-      <h2 className="text-4xl font-bold text-black mb-10">
-        My To Do List
+      <h2 className="text-4xl font-bold text-purple-950 mb-10">
+        TO DO LIST
       </h2>
 
       
